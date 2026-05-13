@@ -391,7 +391,7 @@ export default function Hero() {
           >
             <span className="chip-volt">NEW</span>
             <span className="text-[12.5px]" style={{ color: "#2a2a2c" }}>
-              Gigvane raises seed from a16z to build the agentic freelancer stack
+              Join the waitlist for early access
             </span>
             <IconArrowUpRight size={13} />
           </div>
