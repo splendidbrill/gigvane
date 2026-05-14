@@ -3,6 +3,8 @@ import Image from "next/image";
 import { client } from "@/sanity/client";
 import { postsQuery } from "@/sanity/queries";
 import { urlFor } from "@/sanity/image";
+
+export const revalidate = 60;
 import Navbar from "@/components/navbar";
 import { IconArrowRight } from "@/components/icons";
 

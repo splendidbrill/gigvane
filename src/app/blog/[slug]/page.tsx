@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { PortableText, type PortableTextBlock } from "@portabletext/react";
 import { client } from "@/sanity/client";
+
+export const revalidate = 60;
 import { postBySlugQuery, postSlugsQuery } from "@/sanity/queries";
 import { urlFor } from "@/sanity/image";
 import Navbar from "@/components/navbar";
